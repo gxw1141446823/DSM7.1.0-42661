@@ -11,7 +11,7 @@ jobs:
 
       - name: 构建工具链
         run: |
-          sudo chmod -R 777 *
+          sudo chmod  777 *
           cd buildpat
           sudo ./buildpat-918p-7.1-42661.sh
 
